@@ -12,7 +12,7 @@
 </head>
 <body class="is-boxed has-animations">
     <div class="body-wrap">
-        <header class="site-header">
+        <header class="">
             <div class="container">
                 <div class="site-header-inner">
                     <div class="brand header-brand">
@@ -33,88 +33,39 @@
         <main>
 
 
-            <section class="features section">
-                <div class="container">
-					<div class="features-inner section-inner has-bottom-divider">
-                        <div class="features-wrap">
-                            <div class="feature text-center ">
-                                <div class="feature-inner">
-                                    <div class="feature-icon">
-										<a href="#" class="01">
-                                            <span class="screen-reader-text">Facebook</span>
-                                            <svg width="16" height="16" xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M6.023 16L6 9H3V6h3V4c0-2.7 1.672-4 4.08-4 1.153 0 2.144.086 2.433.124v2.821h-1.67c-1.31 0-1.563.623-1.563 1.536V6H13l-1 3H9.28v7H6.023z" fill="#000"/>
-                                            </svg>
-                                        </a>
-                                    </div>
-                                    <h4 class="feature-title mt-24">Telegram</h4>
-                                    <i class="now-ui-icons ui-1_send"></i>
-                                    <p class="text-sm mb-0">Fermentum posuere urna nec tincidunt praesent semper feugiat nibh. A arcu cursus vitae congue mauris. Nam at lectus urna duis convallis. Mauris rhoncus aenean vel elit scelerisque mauris.</p>
-                                </div>
-                            </div>
-							<div class="feature text-center ">
-                                <div class="feature-inner">
-                                    <div class="feature-icon">
-										<!-- <img src="dist/images/feature-icon-02.svg" alt="Feature 02"> -->
-                                    </div>
-                                    <h4 class="feature-title mt-24">Network</h4>
-                                    <p class="text-sm mb-0">Fermentum posuere urna nec tincidunt praesent semper feugiat nibh. A arcu cursus vitae congue mauris. Nam at lectus urna duis convallis. Mauris rhoncus aenean vel elit scelerisque mauris.</p>
-                                </div>
-                            </div>
-                            <div class="feature text-center ">
-                                <div class="feature-inner">
-                                    <div class="feature-icon">
-										<!-- <img src="dist/images/feature-icon-03.svg" alt="Feature 03"> -->
-                                    </div>
-                                    <h4 class="feature-title mt-24">Be International</h4>
-                                    <p class="text-sm mb-0">Fermentum posuere urna nec tincidunt praesent semper feugiat nibh. A arcu cursus vitae congue mauris. Nam at lectus urna duis convallis. Mauris rhoncus aenean vel elit scelerisque mauris.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+           
+
+            <section class="section">
+                <form method="post" action="/" id="form" class="validate">
+                <div class="form-field">
+                  <label for="full-name">Full Name</label>
+                  <input type="text" name="full-name" id="full-name" placeholder="Joe Bloggs" required />
                 </div>
+                <div class="form-field">
+                  <label for="email-input">Email</label>
+                  <input type="email" name="email-input" id="email-input" placeholder="example@domain.com" required />
+                </div>
+                  <div class="form-field">
+                  <label for="email-input">Product Name</label>
+                  <input type="email" name="email-input" id="email-input" placeholder="EX, Iphone" required />
+                </div>
+                  <div class="form-field">
+                  <label for="email-input">Product Image URL</label>
+                  <input type="email" name="Url-input" id="email-input" placeholder="Url" required />
+                </div>
+                  <div class="form-field">
+                  <label for="email-input">Product Price</label>
+                  <input type="number" name="Url-input" id="price-input" placeholder="price" required />
+                </div>
+                <div class="form-field">
+                  <label for=""></label>
+                  <input type="submit" value="Sign Up" />
+                </div>
+              </form>
             </section>
 
-            <section class="pricing section">
-                <div class="container-sm">
-                    <div class="pricing-inner section-inner">
-                        <div class="pricing-header text-center">
-                            <h2 class="section-title mt-0">Unlimited for all</h2>
-                            <p class="section-paragraph mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut ad quis nostrud.</p>
-                        </div>
-						<div class="pricing-tables-wrap">
-                            <div class="pricing-table">
-                                <div class="pricing-table-inner ">
-                                    <div class="pricing-table-main">
-                                        <div class="pricing-table-header pb-24">
-                                            <div class="pricing-table-price"><span class="pricing-table-price-currency h2">$</span><span class="pricing-table-price-amount h1">10</span><span class="text-xs">/product</span></div>
-                                        </div>
-										<div class="pricing-table-features-title text-xs pt-24 pb-24">What you will get</div>
-                                        <ul class="pricing-table-features list-reset text-xs">
-                                            <li>
-                                                <span>Lorem ipsum dolor sit nisi</span>
-                                            </li>
-                                            <li>
-                                                <span>Lorem ipsum dolor sit nisi</span>
-                                            </li>
-                                            <li>
-                                                <span>Lorem ipsum dolor sit nisi</span>
-                                            </li>
-											<li>
-												<span>Lorem ipsum dolor sit nisi</span>
-											</li>
-                                        </ul>
-                                    </div>
-                                    <div class="pricing-table-cta mb-8">
-                                        <a class="button button-primary button-shadow button-block" href="#">Pre order now</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
+          
+          
 			<section class="cta section">
 				<div class="container">
 					<div class="cta-inner section-inner">
@@ -1984,6 +1935,47 @@ main {
 
 .now-ui-icons.ui-1_settings-gear-63:before {
   content: "\ea4e";
+}
+
+  
+  
+  * {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #eee;
+  font-family: 'helvetica neue', helvetica, arial, sans-serif;
+  color: #222;
+}
+
+#form {
+  max-width: 700px;
+  margin: auto;
+  padding: 2rem;
+  box-sizing: border-box;
+}
+
+.form-field {
+  display: flex;
+  margin: 0 0 1rem 0;
+}
+label, input {
+  width: 70%;
+  padding: 0.5rem;
+  box-sizing: border-box;
+  justify-content: space-between;
+  font-size: 1.1rem;
+}
+label {
+  text-align: right;
+  width: 30%;
+}
+input {
+  border: 2px solid #aaa;
+  border-radius: 2px;
 }
 
 </style>
